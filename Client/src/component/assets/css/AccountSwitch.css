@@ -1,0 +1,36 @@
+.account-info {
+  line-height: 40px;
+  margin-right: 0px;
+}
+.info-switch {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.img-switch img {
+  width: 40px;
+}
+
+.account-switch {
+  line-height: 40px;
+  position: fixed;
+  margin-top: 25px;
+  width: 25% !important;
+  margin-left: 20px;
+}
+@media only screen and (max-width: 990px) {
+  .img-switch img {
+    width: 36px;
+    height: 36px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .account-switch {
+    display: none;
+  }
+}
+.as-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
